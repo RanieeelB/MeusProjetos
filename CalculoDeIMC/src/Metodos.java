@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 
 /**
  * @Author Raniel Bezerra
- * @Version 1.0
+ * @Version 2.0
  */
 
 public class Metodos {
@@ -169,19 +169,24 @@ public class Metodos {
             double total = basal * 1.55;
             limpar();
             System.out.println("Sua taxa metabolica basal é " + bas.format(basal) + " calorias.");
-            System.out.println("Você deve ingerir " + bas.format(total - 400) + " Calorias para perder peso de forma saudável.");
+            System.out.println("Você deve ingerir " + bas.format(total - 500) + " Calorias para perder peso de forma saudável.");
+            System.out.println("Divida as calorias  em 50% de carboidratos, 30% de proteinas e 20% de gorduras.");
             System.out.println("Lembre-se, esse cálculo é apenas uma base, consulte um especialista para informações mais exatas.");
+            
         } else if (exercicio == 2 || sexo == 1) { // cálculo homens || (Taxa metabólica basal * fator de atividade física.)
             limpar();
             double total = basal * 1.78;
             System.out.println("Sua taxa metabolica basal é " + bas.format(basal) + " calorias.");
-            System.out.println("Você deve ingerir " + bas.format(total - 400) + " Calorias para perder peso de forma saudável.");
+            System.out.println("Você deve ingerir " + bas.format(total - 500) + " Calorias para perder peso de forma saudável.");
+            System.out.println("Divida as calorias  em 50% de carboidratos, 30% de proteinas e 20% de gorduras.");
             System.out.println("Lembre-se, esse cálculo é apenas uma base, consulte um especialista para informações mais exatas.");
+           
         } else if (exercicio == 3 || sexo == 1) { // cálculo homens || (Taxa metabólica basal * fator de atividade física.)
             limpar();
             double total = basal * 2.1;
             System.out.println("Sua taxa metabolica basal é " + bas.format(basal) + " calorias.");
-            System.out.println("Você deve ingerir " + bas.format(total - 400) + " Calorias para perder peso de forma saudável.");
+            System.out.println("Você deve ingerir " + bas.format(total - 500) + " Calorias para perder peso de forma saudável.");
+            System.out.println("Divida as calorias  em 50% de carboidratos, 30% de proteinas e 20% de gorduras.");
             System.out.println("Lembre-se, esse cálculo é apenas uma base, consulte um especialista para informações mais exatas.");
 
         } else if (exercicio == 1 || sexo == 2) { // cálculo mulheres || (Taxa metabólica basal * fator de atividade física.)
@@ -189,18 +194,23 @@ public class Metodos {
             limpar();
             System.out.println("Sua taxa metabolica basal é " + bas.format(basal) + " calorias.");
             System.out.println("Você deve ingerir " + bas.format(total - 400) + " Calorias para perder peso de forma saudável.");
+            System.out.println("Divida as calorias  em 50% de carboidratos, 35% de proteinas e 15% de gorduras.");
             System.out.println("Lembre-se, esse cálculo é apenas uma base, consulte um especialista para informações mais exatas.");
+            
         } else if (exercicio == 2 || sexo == 2) {  // cálculo mulheres || (Taxa metabólica basal * fator de atividade física.)
             limpar();
             double total = basal * 1.64;
             System.out.println("Sua taxa metabolica basal é " + bas.format(basal) + " calorias.");
             System.out.println("Você deve ingerir " + bas.format(total - 400) + " Calorias para perder peso de forma saudável.");
+            System.out.println("Divida as calorias  em 50% de carboidratos, 35% de proteinas e 15% de gorduras.");
             System.out.println("Lembre-se, esse cálculo é apenas uma base, consulte um especialista para informações mais exatas.");
+            
         } else if (exercicio == 3 || sexo == 2) { // cálculo mulheres|| (Taxa metabólica basal * fator de atividade física.)
             limpar();
             double total = basal * 1.82;
             System.out.println("Sua taxa metabolica basal é " + bas.format(basal) + " calorias.");
             System.out.println("Você deve ingerir " + bas.format(total - 400) + " Calorias para perder peso de forma saudável.");
+            System.out.println("Divida as calorias  em 50% de carboidratos, 35% de proteinas e 15% de gorduras.");
             System.out.println("Lembre-se, esse cálculo é apenas uma base, consulte um especialista para informações mais exatas.");
             } else {
                 System.out.println("Digite um número válido.");
