@@ -1,6 +1,11 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
+/**
+ * @Author Raniel Bezerra
+ * @Version 2.0
+ */
+
 public class Main extends Metodos{
     public static void main(String[] args) throws InterruptedException {
 
